@@ -7,4 +7,8 @@ camunda:
     admin-user:
       id: kermit
       password: demodemo
-
+    authorization:
+      enabled: true
+logging:
+  level:
+    org.camunda.bpm.engine.rest.exception: DEBUG
